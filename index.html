@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Management</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h2>Click the button to generate an email:</h2>
+  <button onclick="generateAndDisplayEmail()">Generate Email</button>
+  <p id="emailDisplay"></p>
+
+  <h2>Fetch Inbox Mails:</h2>
+  <label for="emailInput">Email:</label>
+  <input type="text" id="emailInput" placeholder="Enter Email">
+  <button onclick="fetchInboxMails()">Fetch Inbox Mails</button>
+  <ul id="inboxMails"></ul>
+  <div id="emailContent"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
